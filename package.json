@@ -1,0 +1,22 @@
+{
+  "name": "uni-mall-modern",
+  "version": "1.0.0",
+  "description": "Modern multi-platform e-commerce template rebuilt with Vue 3, Vite, and Pinia",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test/verify.js"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}
